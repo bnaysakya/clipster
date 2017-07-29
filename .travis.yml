@@ -1,7 +1,6 @@
 language: python
 sudo: required
 dist: trusty
-group: deprecated-2017Q2
 cache:
   - apt
   - directories:
@@ -9,7 +8,7 @@ cache:
     - "$HOME/.pyenv"
 python:
   - 2.7
-  - 3.4
+  - "3.6_with_system_site_packages"
 virtualenv:
   system_site_packages: true
 script:
