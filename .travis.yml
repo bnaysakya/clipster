@@ -8,7 +8,7 @@ cache:
     - "$HOME/.pyenv"
 python:
   - 2.7
-  - "3.6_with_system_site_packages"
+  - 3.6
 virtualenv:
   system_site_packages: true
 script:
